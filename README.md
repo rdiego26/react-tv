@@ -4,6 +4,15 @@
 
 ![React-TV Logo](resources/images/react-tv-cover.png)
 
+```js
+import ReactTV from 'react-tv'
+
+ReactTV.render(
+  ReactTV.createElement(MyApp), 
+  document.getElementById('app')
+);
+```
+
 ## Summary
 
 - [About React-TV](#about-react-tv)
